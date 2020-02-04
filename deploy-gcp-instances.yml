@@ -1,3 +1,6 @@
+    - name: Create instance(s)
+      hosts: localhost
+
     - name: Launch instances
       gce:
          instance_names: "{{ item }}"
